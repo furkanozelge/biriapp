@@ -72,6 +72,12 @@ def enableProguardInReleaseBuilds = false
  */
 def jscFlavor = 'org.webkit:android-jsc:+'
 
+project.ext.vectoricons = [
+    iconFontNames: [ 'MaterialCommunityIcons.ttf' ]
+]
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
 android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -117,3 +123,18 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+// Mona Sans fontlarını assets/fonts klasörüne kopyala
+task copyFonts {
+    doLast {
+        ['MonaSans-Regular.ttf', 'MonaSans-Medium.ttf', 'MonaSans-SemiBold.ttf', 'MonaSans-Bold.ttf'].each { fontName ->
+            copy {
+                from "../../assets/fonts"
+                into "app/src/main/assets/fonts"
+                include fontName
+            }
+        }
+    }
+}
+
+preBuild.dependsOn copyFonts
