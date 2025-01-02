@@ -68,7 +68,7 @@ export default function FloatingLabelInput({
       inputRange: [0, 1],
       outputRange: [COLORS.textSecondary, COLORS.purple],
     }),
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF-Pro-Display-Regular',
   };
 
   return (
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     color: COLORS.text,
     paddingTop: 16,
     paddingBottom: 8,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF-Pro-Display-Regular',
     fontSize: 16,
   },
   inputFocused: {

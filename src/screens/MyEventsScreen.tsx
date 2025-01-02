@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 28,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     color: COLORS.text,
   },
   eventsList: {
@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
   },
   eventTitle: {
     fontSize: 18,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     color: COLORS.text,
     marginBottom: 8,
   },
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   },
   eventDetailText: {
     fontSize: 14,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF Pro Display-Regular',
     color: COLORS.textSecondary,
   },
   attendees: {
@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
   },
   attendeeCount: {
     fontSize: 14,
-    fontFamily: 'MonaSans-Medium',
+    fontFamily: 'SF Pro Display-Medium',
     color: COLORS.textSecondary,
   },
 }); 

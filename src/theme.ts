@@ -1,18 +1,14 @@
-export const FONTS = {
+export const TYPOGRAPHY = {
   regular: {
-    fontFamily: 'MonaSans-Regular',
-    fontWeight: 'normal',
+    fontFamily: 'SF-Pro-Display-Regular',
   },
   medium: {
-    fontFamily: 'MonaSans-Medium',
-    fontWeight: '500',
+    fontFamily: 'SF-Pro-Display-Medium',
+  },
+  semibold: {
+    fontFamily: 'SF-Pro-Display-Semibold',
   },
   bold: {
-    fontFamily: 'MonaSans-Bold',
-    fontWeight: 'bold',
-  },
-  heavy: {
-    fontFamily: 'MonaSans-Bold',
-    fontWeight: '900',
+    fontFamily: 'SF-Pro-Display-Bold',
   },
 }; 

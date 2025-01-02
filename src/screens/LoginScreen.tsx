@@ -103,13 +103,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     color: COLORS.text,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 16,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF Pro Display-Regular',
     color: COLORS.textSecondary,
   },
   form: {
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   },
   forgotPasswordText: {
     color: COLORS.purple,
-    fontFamily: 'MonaSans-SemiBold',
+    fontFamily: 'SF Pro Display-SemiBold',
     fontSize: 14,
   },
   loginButton: {
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
   },
   loginButtonText: {
     color: COLORS.text,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     fontSize: 16,
   },
   registerContainer: {
@@ -144,12 +144,12 @@ const styles = StyleSheet.create({
   },
   registerText: {
     color: COLORS.textSecondary,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF Pro Display-Regular',
     fontSize: 14,
   },
   registerLink: {
     color: COLORS.purple,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     fontSize: 14,
   },
 }); 

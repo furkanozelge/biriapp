@@ -277,7 +277,7 @@ const styles = StyleSheet.create({
   },
   headerUsername: {
     fontSize: 18,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF-Pro-Display-Bold',
     color: COLORS.text,
     flex: 1,
     textAlign: 'center',
@@ -313,12 +313,12 @@ const styles = StyleSheet.create({
   },
   statValue: {
     fontSize: 20,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF-Pro-Display-Semibold',
     color: COLORS.text,
   },
   statLabel: {
     fontSize: 13,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF-Pro-Display-Regular',
     color: COLORS.textSecondary,
     marginTop: 4,
   },
@@ -329,12 +329,12 @@ const styles = StyleSheet.create({
   titleText: {
     color: COLORS.purple,
     fontSize: 13,
-    fontFamily: 'MonaSans-SemiBold',
+    fontFamily: 'SF Pro Display-SemiBold',
     marginBottom: 12,
   },
   bioText: {
     fontSize: 14,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF Pro Display-Regular',
     color: COLORS.text,
     lineHeight: 20,
     marginBottom: 8,
@@ -346,7 +346,7 @@ const styles = StyleSheet.create({
   },
   location: {
     fontSize: 14,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF Pro Display-Regular',
     color: COLORS.textSecondary,
     marginLeft: 8,
   },
@@ -358,7 +358,7 @@ const styles = StyleSheet.create({
   },
   joinDate: {
     fontSize: 14,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF Pro Display-Regular',
     color: COLORS.textSecondary,
     marginLeft: 8,
   },
@@ -379,7 +379,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   editInput: {
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     color: COLORS.text,
     padding: 0,
     marginVertical: 0,
@@ -419,7 +419,7 @@ const styles = StyleSheet.create({
   },
   cancelButtonText: {
     color: COLORS.text,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     fontSize: 16,
   },
   nameContainer: {
@@ -429,7 +429,7 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 16,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     color: COLORS.text,
   },
   headerTitleContainer: {
@@ -442,7 +442,7 @@ const styles = StyleSheet.create({
   titleBadge: {
     fontSize: 11,
     color: COLORS.purple,
-    fontFamily: 'MonaSans-Medium',
+    fontFamily: 'SF Pro Display-Medium',
   },
   nameWithTitle: {
     flexDirection: 'row',
@@ -455,7 +455,7 @@ const styles = StyleSheet.create({
   },
   eventsSectionTitle: {
     fontSize: 16,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF-Pro-Display-Bold',
     color: COLORS.text,
     marginBottom: 16,
   },
@@ -476,7 +476,7 @@ const styles = StyleSheet.create({
   },
   eventTitle: {
     fontSize: 14,
-    fontFamily: 'MonaSans-SemiBold',
+    fontFamily: 'SF-Pro-Display-Semibold',
     color: COLORS.text,
     marginBottom: 8,
   },
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
   },
   eventDetailText: {
     fontSize: 12,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF-Pro-Display-Regular',
     color: COLORS.textSecondary,
   },
 }); 

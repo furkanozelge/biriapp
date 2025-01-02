@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF Pro Display-Bold',
     color: COLORS.text,
   },
   menuContainer: {
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   menuButtonText: {
     flex: 1,
     fontSize: 16,
-    fontFamily: 'MonaSans-Medium',
+    fontFamily: 'SF Pro Display-Medium',
     color: COLORS.text,
   },
   logoutButton: {
@@ -154,6 +154,6 @@ const styles = StyleSheet.create({
   },
   logoutButtonText: {
     fontSize: 16,
-    fontFamily: 'MonaSans-Medium',
+    fontFamily: 'SF Pro Display-Medium',
   },
 }); 

@@ -145,13 +145,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF-Pro-Display-Bold',
     color: COLORS.text,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 16,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF-Pro-Display-Regular',
     color: COLORS.textSecondary,
   },
   form: {
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
   registerButtonText: {
     color: COLORS.text,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF-Pro-Display-Bold',
     fontSize: 16,
   },
   loginContainer: {
@@ -180,12 +180,12 @@ const styles = StyleSheet.create({
   },
   loginText: {
     color: COLORS.textSecondary,
-    fontFamily: 'MonaSans-Regular',
+    fontFamily: 'SF-Pro-Display-Regular',
     fontSize: 14,
   },
   loginLink: {
     color: COLORS.purple,
-    fontFamily: 'MonaSans-Bold',
+    fontFamily: 'SF-Pro-Display-Bold',
     fontSize: 14,
   },
 }); 

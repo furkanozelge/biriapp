@@ -684,7 +684,7 @@ const styles = StyleSheet.create({
   },
   countryName: {
     fontSize: 20,
-    fontFamily: 'MonaSans-ExtraBold',
+    fontFamily: 'SF-Pro-Display-Bold',
     color: COLORS.text,
     letterSpacing: 0.5,
     textShadowColor: 'rgba(0, 0, 0, 0.5)',
@@ -697,5 +697,8 @@ const styles = StyleSheet.create({
   },
   favoriteButton: {
     padding: 8,
+  },
+  eventCount: {
+    fontFamily: 'SF-Pro-Display-Medium',
   },
 }); 
